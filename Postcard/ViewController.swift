@@ -27,7 +27,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func sendMailButtonPressed(sender: UIButton) {
+    @IBAction func sendMailButtonPressed(sender: UIButton)
+        //code will evaluate when we push the button
+        //updates for github 
+    
+    
+    {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
